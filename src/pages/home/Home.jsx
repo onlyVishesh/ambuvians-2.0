@@ -1,7 +1,10 @@
-
+import Statistics from "./Statistics";
+import Title from "./Title";
 
 const Home = () => {
-  return <div style={{marginTop: '9vh'}}> <h1>Home</h1>
+  return <div style={{marginTop: '9vh'}}>
+    <Title/>
+    <Statistics/>
   </div>;
 };
 
