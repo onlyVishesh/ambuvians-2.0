@@ -1,9 +1,8 @@
 import "./Partners.css";
-import teific from "../../assets/images/teific.png"
-import kiet from "../../assets/images/kiet.png"
-import club from "../../assets/images/club.png"
-import school from "../../assets/images/school.png"
-
+import teific from "../../assets/images/teific.png";
+import kiet from "../../assets/images/kiet.png";
+import club from "../../assets/images/club.png";
+import school from "../../assets/images/school.png";
 
 const Partners = () => {
   return (

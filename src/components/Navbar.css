@@ -8,8 +8,8 @@ header {
   background-color: white;
   display: flex;
   gap: 2vw;
-  height: 7vh;
-  padding: 2rem 2rem 1rem 5rem;
+  height: 8vh;
+  padding: 1rem 2rem 1rem 5rem;
   position: fixed;
   top: 0;
   justify-content: space-between;
@@ -84,7 +84,8 @@ header {
   margin-left: 4vw;
 }
 
-.login-btn:hover, .login-btn a:hover{
+.login-btn:hover,
+.login-btn a:hover {
   color: #bcbcbc !important;
 }
 
@@ -170,7 +171,7 @@ header {
 }
 .under {
   padding: 5px;
-  background: linear-gradient(90deg,  #e85a4f 0%, #e8594f88 50%, #e85a4f 100%);
+  background: linear-gradient(90deg, #e85a4f 0%, #e8594f88 50%, #e85a4f 100%);
   background-repeat: no-repeat;
   background-size: 50% 4px;
   background-position: bottom;
@@ -240,11 +241,9 @@ header {
 }
 
 @media screen and (max-width: 1024px) and (min-width: 769px) {
-#navbar {
-
-  padding: 2rem 2rem 1rem 2.5rem;
-;
-}
+  #navbar {
+    padding: 1rem 2rem 1rem 2.5rem;
+  }
   .links {
     font-size: 15px;
     gap: 3vw;

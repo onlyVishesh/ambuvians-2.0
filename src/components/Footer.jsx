@@ -9,13 +9,14 @@ import location from "../assets/images/Location.png";
 import gmail from "../assets/images/Gmail.svg";
 import call from "../assets/images/call.svg";
 
-
 function Footer() {
   return (
     <div className="footer">
       <div className="top-footer">
         <div className="left">
-          <h2 className="headings">India’s First Unified Health Care Services</h2>
+          <h2 className="headings">
+            India’s First Unified Health Care Services
+          </h2>
           <div>
             <h3 className="headings">Get the app</h3>
             <div className="apk">
@@ -50,47 +51,35 @@ function Footer() {
           <div>
             <h3 className="headings">Follow us on</h3>
             <div className="icons">
-            <abbr title="instagram" className="first-icon">
-              <a
-                href="https://www.instagram.com/official.ambuvians/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  src={insta}
-                  alt="instagram icon"
-                />
-              </a>
-            </abbr>
-            <abbr title="whatsapp" className="second-icon">
-              <a
-                href="https://wa.me/+7505853812"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  src={whatsapp}
-                  alt="whatsapp icon"
-                />
-              </a>
-            </abbr>
-            <abbr title="twitter" className="third-icon">
-              <a href="https://www.threads.net/@official.ambuvians">
-                <img
-                  src={x}
-                  alt="twitter icon"
-                />
-              </a>
-            </abbr>
-            <abbr title="linkedin" className="fourth-icon">
-              <a href="https://www.linkedin.com/company/ambuvians-healthcare-pvt-ltd/?viewAsMember=true">
-                <img
-                  src={linkedin}
-                  alt="linkedin icon"
-                />
-              </a>
-            </abbr>
-          </div>
+              <abbr title="instagram" className="first-icon">
+                <a
+                  href="https://www.instagram.com/official.ambuvians/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={insta} alt="instagram icon" />
+                </a>
+              </abbr>
+              <abbr title="whatsapp" className="second-icon">
+                <a
+                  href="https://wa.me/+7505853812"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={whatsapp} alt="whatsapp icon" />
+                </a>
+              </abbr>
+              <abbr title="twitter" className="third-icon">
+                <a href="https://www.threads.net/@official.ambuvians">
+                  <img src={x} alt="twitter icon" />
+                </a>
+              </abbr>
+              <abbr title="linkedin" className="fourth-icon">
+                <a href="https://www.linkedin.com/company/ambuvians-healthcare-pvt-ltd/?viewAsMember=true">
+                  <img src={linkedin} alt="linkedin icon" />
+                </a>
+              </abbr>
+            </div>
           </div>
         </div>
         <div className="links-section">
@@ -171,34 +160,22 @@ function Footer() {
                 </span>
               </li>
               <li>
-                <img
-                  className="contact-icon"
-                  src={gmail}
-                  alt="gmail icon"
-                />
+                <img className="contact-icon" src={gmail} alt="gmail icon" />
                 <span>
                   <p>
                     <a href="mailto:contact@ambuvians.in">
                       contact@ambuvians.in
                     </a>
                     <br />
-                    <a href="mailto:info@ambuvians.in ">
-                      info@ambuvians.in 
-                    </a>
+                    <a href="mailto:info@ambuvians.in ">info@ambuvians.in</a>
                   </p>
                 </span>
               </li>
               <li>
-                <img
-                  className="contact-icon"
-                  src={call}
-                  alt="ringtone icon"
-                />
+                <img className="contact-icon" src={call} alt="ringtone icon" />
                 <span>
                   <p>
-                    <a href="tel:+7505853812">
-                      7505853812 
-                    </a>
+                    <a href="tel:+7505853812">7505853812</a>
                     <br />
                     <a href="tel:+8630729931">8630729931</a>
                   </p>

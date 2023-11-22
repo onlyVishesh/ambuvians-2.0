@@ -34,7 +34,7 @@ const Navbar = () => {
 
   return (
     <header>
-      <div id="navbar" style={{ height: isScrolled ? "6vh" : "7vh" }}>
+      <div id="navbar" style={{ height: isScrolled ? "7vh" : "8vh" }}>
         <div id="logo">
           <a href="/">
             <img

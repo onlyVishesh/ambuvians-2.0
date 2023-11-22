@@ -31,7 +31,7 @@ button:hover {
 }
 
 a {
-  color:inherit;
+  color: inherit;
   text-decoration: none;
 }
 
@@ -71,9 +71,9 @@ li {
   flex-direction: column;
   gap: 1.5rem;
 }
-.headings{
+.headings {
   font-size: 24px;
-} 
+}
 
 .apk {
   display: flex;
@@ -129,7 +129,6 @@ button span {
 .Services h2,
 .contact h2 {
   font-size: 20px;
-
 }
 
 .Knowus li,
@@ -138,7 +137,6 @@ button span {
   list-style: none;
   margin-bottom: 20px;
   margin-top: 20px;
-
 
   /* justify-content: center; */
 }
@@ -170,7 +168,7 @@ button span {
   display: flex;
   align-items: center;
 }
-.contact ul{
+.contact ul {
   display: flex;
   flex-direction: column;
   gap: 2vw;
@@ -243,9 +241,8 @@ a[href^="geo:"] {
   display: flex;
   justify-content: flex-end;
   font-size: 25px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-
 
 @media screen and (min-width: 2651px) {
   /* Styles for screens above 2650px */
@@ -264,11 +261,10 @@ a[href^="geo:"] {
 }
 
 @media screen and (max-width: 1280px) and (min-width: 1025px) {
-  .headings{
+  .headings {
     font-size: 20px;
-  } 
+  }
   .left {
-
     gap: 0.9rem;
   }
   .icons img {
@@ -276,11 +272,10 @@ a[href^="geo:"] {
     height: auto;
   }
   .Knowus h2,
-.Services h2,
-.contact h2 {
-  font-size: 16px;
-
-}
+  .Services h2,
+  .contact h2 {
+    font-size: 16px;
+  }
   .Knowus ul,
   .Services ul,
   .contact ul {
@@ -292,11 +287,10 @@ a[href^="geo:"] {
 }
 
 @media screen and (max-width: 1024px) and (min-width: 769px) {
-  .headings{
+  .headings {
     font-size: 20px;
-  } 
+  }
   .left {
-
     gap: 0.9rem;
   }
   .icons img {
@@ -304,11 +298,10 @@ a[href^="geo:"] {
     height: auto;
   }
   .Knowus h2,
-.Services h2,
-.contact h2 {
-  font-size: 16px;
-
-}
+  .Services h2,
+  .contact h2 {
+    font-size: 16px;
+  }
   .Knowus ul,
   .Services ul,
   .contact ul {
@@ -327,6 +320,6 @@ a[href^="geo:"] {
   /* Styles for screens between 540px and 321px */
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
   /* Styles for screens under 320px */
 }

@@ -6,9 +6,11 @@ const Vision = () => {
       <h2 className="vision-heading">Our Vision</h2>
       <div className="vision-cards">
         <div className="vision-card">
-          <div><p className="vision-card-para">to provide</p>
-          <h4 className="vision-card-heading">Medical Services</h4></div>
-          
+          <div>
+            <p className="vision-card-para">to provide</p>
+            <h4 className="vision-card-heading">Medical Services</h4>
+          </div>
+
           <img className="vision-card-img" src={visionImg} alt="Vision 1" />
         </div>
         <div className="vision-card">
